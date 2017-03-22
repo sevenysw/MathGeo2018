@@ -5,3 +5,6 @@ A toolbox for seismic data processing
 3, Zhao Liu:
 4, Lina Liu:
 5, Hairong Wang:
+
+# test data download link
+http://pan.baidu.com/s/1qYwI1IG
