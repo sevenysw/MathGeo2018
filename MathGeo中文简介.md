@@ -1,30 +1,23 @@
 # MathGeo
-A toolbox for seismic data processing from Center of Geology, Harbin Institute of Technology, China
+地震数据处理工具箱，地球物理中心，哈尔滨工业大学，中国
 
 * AGCM:
-
-We have used the asymmetric Gaussian chirplet model (AGCM) and established a dictionary-free variant of the orthogonal matching pursuit, a greedy algorithm for sparse approximation of seismic traces.
+程序使用非对称高斯线性调频小波模型建立一个不需要字典的正交匹配追踪算法，使用贪婪算法来近似地震数据道
     
 * Decurtain:
-
-An infimal convolution model is applied to split the corrupted 3D image into the clean image and two types of corruptions, namely a striped part and a laminar one.
+程序用一个下卷积模型将受干扰的3D图像到分解成干净的图像以及两种类型的干扰，即条纹部分和层。
 
 * EMPCR:
-
-We propose a simple yet efficient interpolation algorithm, which is based on the Hankel matrix, for randomly missing traces.
+我们提出了一种简单有效的随机插值算法，使用了Hankel矩阵。
 
 * RegistrationMultiComponent:
-
-We propose a new curvelet-based registration method to improve the precision of registration, especially for the data with heavy random noises.
+程序使用基于曲波变换的关联方法来提高数据关联的精度，尤其是对含有噪声的数据
 
 * DDTF3D:
-
-We study an application of the data-driven tight frame (DDTF) method to noise suppression and interpolation of high-dimensional seis- mic data.
+程序使用数据驱动紧框架方法对三维地震数据进行了噪声压制以及插值
 
 * MCDDTF3D:
+我们为DDTF方法设计了一种新的样本选取方法。假设方差大的块包含的信息多，对应于复杂结构，因此应以更大概率选入训练集合
 
-We have designed a new patch selection method for DDTF seismic data recovery.We suppose that patches with higher variance contain more information related to complex structures, and should be selected into the training set with higher probability.
-
-* test data download link
-
+* 测试数据下载链接
 http://pan.baidu.com/s/1qYwI1IG
