@@ -1,0 +1,5 @@
+%N：Length of the data, 数据的长度
+%alpha, lambda: parameters of the model,模型参数
+%t1：step length, 步长
+%dpp, dps：compressional wave, shear wave data 纵横波数据
+%c：DCT coefficient, 离散余弦系数
