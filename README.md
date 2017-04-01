@@ -1,22 +1,30 @@
 # MathGeo
 A toolbox for seismic data processing from Center of Geology, Harbin Institute of Technology, China
-1, AGCM:
-    We have used the asymmetric Gaussian chirplet model (AGCM) and established a dictionary-free variant of the orthogonal matching pursuit, a greedy algorithm for sparse approximation of seismic traces.
+
+* AGCM:
+
+We have used the asymmetric Gaussian chirplet model (AGCM) and established a dictionary-free variant of the orthogonal matching pursuit, a greedy algorithm for sparse approximation of seismic traces.
     
-2, Decurtain:
-    An infimal convolution model is applied to split the corrupted 3D image into the clean image and two types of corruptions, namely a striped part and a laminar one.
+* Decurtain:
 
-3, EMPCR:
-    We propose a simple yet efficient interpolation algorithm, which is based on the Hankel matrix, for randomly missing traces.
+An infimal convolution model is applied to split the corrupted 3D image into the clean image and two types of corruptions, namely a striped part and a laminar one.
 
-4, RegistrationMultiComponent:
-    We propose a new curvelet-based registration method to improve the precision of registration, especially for the data with heavy random noises.
+* EMPCR:
 
-5, DDTF3D:
-    We study an application of the data-driven tight frame (DDTF) method to noise suppression and interpolation of high-dimensional seis- mic data.
+We propose a simple yet efficient interpolation algorithm, which is based on the Hankel matrix, for randomly missing traces.
 
-6, MCDDTF3D:
-    We have designed a new patch selection method for DDTF seismic data recovery.We suppose that patches with higher variance contain more information related to complex structures, and should be selected into the training set with higher probability.
+* RegistrationMultiComponent:
 
-# test data download link
+We propose a new curvelet-based registration method to improve the precision of registration, especially for the data with heavy random noises.
+
+* DDTF3D:
+
+We study an application of the data-driven tight frame (DDTF) method to noise suppression and interpolation of high-dimensional seis- mic data.
+
+* MCDDTF3D:
+
+We have designed a new patch selection method for DDTF seismic data recovery.We suppose that patches with higher variance contain more information related to complex structures, and should be selected into the training set with higher probability.
+
+* test data download link
+
 http://pan.baidu.com/s/1qYwI1IG
