@@ -1,3 +1,10 @@
+%% Asymmetric chirplet transform
+% Author: F. Bossmann
+% Reference:
+% F. Bossmann, J. Ma*, Asymmetric chirplet transform for sparse representation of seismic data, Geophysics, 2015, 80 (6), WD89-WD100.
+% F. Bossmann, J. Ma*, Asymmetric chirplet transform ¡ª Part 2: Phase, frequency, and chirp rate, Geophysiscs, 2016, 81(6):V425-V439.
+% Email:jma@hit.edu.cn
+
 % Function calculates the AGCM envelope approximation of Data
 % Input:
 %   Data = input data
