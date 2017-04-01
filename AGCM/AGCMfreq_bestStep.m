@@ -15,6 +15,7 @@
 % Output:
 % - allPara, all AGCM parameters (envelope and frequency)
 % - approx, complete approximation of the data
+% April 1st, 2017
 
 function [allPara,approx,stepsize] = AGCMfreq_bestStep(EnvPara,data,iter,minStep,k)
 multi=2;
