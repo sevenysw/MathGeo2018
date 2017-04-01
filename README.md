@@ -1,5 +1,5 @@
 # MathGeo
-A toolbox for seismic data processing from Center of Geology, Harbin Institute of Technology, China
+A toolbox for seismic data processing from Center of Geopyhsics, Harbin Institute of Technology, China
 
 * AGCM:
 
