@@ -1,5 +1,5 @@
-# gewu518
-A toolbox for seismic data processing
+# MathGeo
+A toolbox for seismic data processing from Center of Geology, Harbin Institute of Technology, China
 1, Siwei Yu: DDTF
 2, Yongna Jia: SVM 
 3, Zhao Liu:
