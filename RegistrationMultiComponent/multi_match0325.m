@@ -4,12 +4,13 @@
 % Wang H, Cheng Y, Ma J. Curvelet-based registration of multi-component seismic waves[J]. Journal of Applied Geophysics, 2014, 104(5):90-96.
 % Email:jma@hit.edu.cn
 
-%N£ºLength of the data, Êı¾İµÄ³¤¶È
-%alpha, lambda: parameters of the model,Ä£ĞÍ²ÎÊı
-%t1£ºstep length, ²½³¤
-%dpp, dps£ºcompressional wave, shear wave data ×İºá²¨Êı¾İ
-%c£ºDCT coefficient, ÀëÉ¢ÓàÏÒÏµÊı
+%Nï¼šLength of the data, æ•°æ®çš„é•¿åº¦
+%alpha, lambda: parameters of the model,æ¨¡å‹å‚æ•°
+%t1ï¼šstep length, æ­¥é•¿
+%dpp, dpsï¼šcompressional wave, shear wave data çºµæ¨ªæ³¢æ•°æ®
+%cï¼šDCT coefficient, ç¦»æ•£ä½™å¼¦ç³»æ•°
 
+% March 22, 2017
 
 function [tal]=multi_match0325
 load('dpp.mat');
