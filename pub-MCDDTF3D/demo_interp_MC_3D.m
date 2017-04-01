@@ -1,3 +1,10 @@
+% MCDDTF3D by YSW
+% Monte Carlo data-driven tight frame for seismic data recovery
+% Author: Siwei Yu
+% Reference: Yu S, Ma J, Osher S. Monte Carlo data-driven tight frame for seismic data recovery[J]. Geophysics, 2016, 81(4):V327-V340.
+% Email:  jma@hit.edu.cn
+% March 22, 2017
+
 clear;clc;
 addpath(genpath('.'));
 %% load data;
