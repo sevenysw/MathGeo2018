@@ -1,4 +1,4 @@
-% DDTF3D by YSW 20161210
+% DDTF3D by YSW
 % Interpolation and denoising of high-dimensional seismic data by learning a tight frame
 % Author: Siwei Yu
 % Reference: Yu S, Ma J, Zhang X, et al. Interpolation and denoising of high-dimensional seismic data by learning a tight frame[J]. Geophysics, 2015, 80(5):V119-V132.
