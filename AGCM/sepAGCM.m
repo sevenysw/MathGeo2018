@@ -19,6 +19,7 @@
 %   res = residual
 %
 % Note: The input data "Data" should be a vector with mean 0!
+% April 1st, 2017
 
 function [approx,para,res] = sepAGCM(Data,maxRes,minResChange,maxIter,eps)
 
