@@ -34,7 +34,7 @@ if (~exist('dmax' ,'var'))
     dmax = max(I(:)) ;
 end
 
-figure,imagesc(I,[dmin,dmax]);axis image;colorbar; colormap(seismic(2)); colormap gray;
+figure,imagesc(I,[dmin,dmax]);axis image;colorbar;  colormap gray;
 % set(gca,'XTick',xt,'YTick',yt);
 % set(gca,'XTickLabel',xtl,'YTickLabel',ytl);
 set(gca,'FontSize',12);
