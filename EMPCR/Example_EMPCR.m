@@ -1,5 +1,5 @@
 %%  Reference: 
-%Authors: Yongna Jia£¬Siwei Yu£¬Lina Liu£¬Jianwei Ma. 
+%Authors: Yongna JiaÂ£Â¬Siwei YuÂ£Â¬Lina LiuÂ£Â¬Jianwei Ma. 
 %A fast rank reduction algorithm for three-dimensional seismic data interpolation. 
 % Journal of applied geophysics, 2016, 132: 137-145.
 %% Code author: Yongna Jia
@@ -15,6 +15,8 @@
 
 %%data: original_data_128.mat; sample_matrix:E_3D_cell_originaldata_size; 
 %%programe:EMPCR_size_originaldata, figure 5 in the reference.
+
+% Matlab 2012b
 warning off;
 clear;clc;close all;
 load original_data_128;   load E_3D_cell_originaldata_size; rank=3;
