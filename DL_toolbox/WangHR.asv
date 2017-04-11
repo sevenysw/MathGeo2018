@@ -1,0 +1,106 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% robust recover when a fraction of the entries of Ax are corrupted--y
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+clf reset
+clc
+clear all;
+close all;
+echo off
+path(path, './Optimization');
+path(path, './Data');
+% load random states for repeatable experiments
+load RandomStates
+rand('state', rand_state);
+randn('state', randn_state);
+
+
+
+% q = randperm(168);
+load all_q %  for the reuslts of paper ????????????
+q=allq(1761,:);
+%load new_cases_6lanes/Axb_4vehicleIn4Lanes_2;
+%load Axb_8vehicleIn4Lanes
+load Axb_10vehicleIn6Lanes %A,b,x
+
+b0=b;  %???????
+b=b0+0.000003.*b0.*randn(168,64);%mean(b(:))
+C=A; % ?????
+MM=28:10:168;  %168????????????
+% MM=18:10:28;
+xx=x;  % original signal %????????A*x=b???????b?A?x?x???????
+%b=A*x;
+figure,imshow(xx)
+x_o=pinv(A)*b;
+%x_o=A'*b0;
+figure,imshow(x_o)
+%a=bbb
+%x=x_o(:,1:60);% ?1????????
+x=zeros(size(x));
+%x=A\b0;
+x=pinv(A)*b;
+%xx(:,10:40)=0;
+x=xx/2+mean(xx(:))*randn(size(x));%+xx/1.5;%+
+figure, imagesc(x);
+figure, plot(xx(:,50)),hold on, plot(x(:,50),'-.r');
+
+ccc=cond(A)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+thre=100;%0.06
+iteration=10;
+%iterative curvelet (or wavelet) thresholding
+tic
+for i=1:iteration
+    i
+    %%%====ICT
+   
+   temp=max(A'*(b-A*x));
+   temp1=1/max(temp);
+   x=x+temp1*A'*(b-A*x);%
+   %x=x+i*temp1*pinv(A)*(b-A*x); %%pinv(A)=(A'A)^(-1)A'
+   % x=x+A\(b-A*x);
+    %x=x.*(x>10);
+    x=x.*(abs(x)>mean(x(:))*5*(1-i/iteration));
+     mu=2;
+          belta=2;
+          gamma=0.0001;
+          tal=0.0001;
+          y=ones(168,64);
+          thre=1000;
+          %x=x.*(abs(x)>mean(x(:))*5*(1-i/iteration));
+
+ 
+              for j=1:1
+                  j
+                  r=(mu*belta/(1+mu*belta))*(y/belta-(A*x-b));
+                  g=A'*(A*x+r-b-y/belta);
+                  x1=max(norm((x-tal*g),2)-tal/belta,0)*((x-tal*g)/norm(abs(x-tal*g),2));
+                  x1=x1.*(abs(x1>150000));
+                  y=y-gamma*belta*(A*x1+r-b);
+                  %x=x1;
+                  %xx0=x1; 
+                  %xx0(:,j)=xx0(:,j).*(abs(xx0(:,j))>mean(xx0(:))*5*(1-i/iteration));
+                  %xxx(:,j)=xx0(:,j);
+                  %x=x1;
+             
+                   
+                  [x1,Ct]=curveletTh(x1,*(1-i/iteration));
+                  x=x1;
+              end
+    
+    
+    
+    
+   %[x,Ct]=curveletTh(x,thre*(1-i/iteration));%curvelet hard thresholding
+
+
+   %normf_u(i)=norm(u-f1,1); snr_u(i)=SNR(u,f1);
+   %error_u(i)=norm(data_u-FT*f1,2); xnorm_u(i)=norm(f,1);
+    
+end
+toc
+x=x1;
+figure, imshow(x);
+figure,imagesc(x);
+snr_recovry=SNR(x,xx)
+
