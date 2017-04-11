@@ -18,6 +18,7 @@ We propose a simple yet efficient interpolation algorithm, which is based on the
 We propose a new curvelet-based registration method to improve the precision of registration, especially for the data with heavy random noises.
 
 * DL_toolbox
+
 We propose a simultaneous dictionary learning and denoising method for seismic data.
 
 * DDTF3D:
