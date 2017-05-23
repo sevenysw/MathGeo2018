@@ -6,7 +6,9 @@ A toolbox for seismic data processing from Center of Geopyhsics, Harbin Institut
 We have used the asymmetric Gaussian chirplet model (AGCM) and established a dictionary-free variant of the orthogonal matching pursuit, a greedy algorithm for sparse approximation of seismic traces.
 
 Reference:
+
 F. Bossmann, J. Ma*, Asymmetric chirplet transform for sparse representation of seismic data, Geophysics, 2015, 80 (6), WD89-WD100.
+
 F. Bossmann, J. Ma*, Asymmetric chirplet transform ¡ª Part 2: Phase, frequency, and chirp rate, Geophysiscs, 2016, 81(6):V425-V439.
 
 * Decurtain:
