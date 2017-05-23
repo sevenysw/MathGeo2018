@@ -25,7 +25,7 @@ We propose a simple yet efficient interpolation algorithm, which is based on the
 
 Reference:
 
-A fast rank reduction algorithm for three-dimensional seismic data interpolation. 
+A fast rank reduction algorithm for three-dimensional seismic data interpolation. Journal of applied geophysics, 2016, 132: 137-145.
 
 * RegistrationMultiComponent:
 
