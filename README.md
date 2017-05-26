@@ -53,11 +53,27 @@ Yu S, Ma J, Zhang X, et al. Interpolation and denoising of high-dimensional seis
 
 * MCDDTF3D:
 
-We have designed a new patch selection method for DDTF seismic data recovery.We suppose that patches with higher variance contain more information related to complex structures, and should be selected into the training set with higher probability.
+We have designed a new patch selection method for DDTF seismic data recovery. We suppose that patches with higher variance contain more information related to complex structures, and should be selected into the training set with higher probability.
 
 Reference: 
 
 Yu S, Ma J, Osher S. Monte Carlo data-driven tight frame for seismic data recovery[J]. Geophysics, 2016, 81(4):V327-V340.
+
+* CVMD:
+
+We have extended varitional mode decomposition to complex-valued situation and apply CVMD to f-x spectrum of seismic for denoising.
+
+Reference: 
+
+Yu S, Ma J. Complex Variational Mode Decomposition for Slop-preserving Denoising, summited to IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+
+* LDMM
+
+We have applied low dimensional manifold method for seismic strong noise attenuation. LDMM uses a low dimensional method to approximate all the patches of seismic data. 
+
+Reference:
+
+Yu S, et. al. Noise attenuation in a low dimensional manifold, accepted by geophysics.
 
 * test data download link
 
