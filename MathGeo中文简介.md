@@ -60,6 +60,22 @@ Yu S, Ma J, Zhang X, et al. Interpolation and denoising of high-dimensional seis
 
 Yu S, Ma J, Osher S. Monte Carlo data-driven tight frame for seismic data recovery[J]. Geophysics, 2016, 81(4):V327-V340.
 
+* CVMD:
+
+我们将VMD拓展到复数情况，然后应用于地震数据的f-x谱上，用于去噪
+
+参考文献: 
+
+Yu S, Ma J. Complex Variational Mode Decomposition for Slop-preserving Denoising, summited to IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+
+* LDMM
+
+我们将低维流形模型用于地震数据强噪声压制。LDMM用一个低维流形近似地震数据的所有数据块。
+
+参考文献:
+
+Yu S, et. al. Noise attenuation in a low dimensional manifold, accepted by geophysics.
+
 * 测试数据下载链接
 
 http://pan.baidu.com/s/1qYwI1IG
