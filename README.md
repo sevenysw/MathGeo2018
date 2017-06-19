@@ -65,7 +65,7 @@ We have extended varitional mode decomposition to complex-valued situation and a
 
 Reference: 
 
-Yu S, Ma J. Complex Variational Mode Decomposition for Slop-preserving Denoising, summited to IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+Yu S, Ma J. Complex Variational Mode Decomposition for Slop-preserving Denoising, summited to IEEE Transactions on Geoscience and Remote Sensing
 
 * LDMM
 
