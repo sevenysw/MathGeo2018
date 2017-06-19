@@ -8,9 +8,9 @@
 
 参考文献：
 
-F. Bossmann, J. Ma*, Asymmetric chirplet transform for sparse representation of seismic data, Geophysics, 2015, 80 (6), WD89-WD100.
+F. Bossmann, J. Ma, Asymmetric chirplet transform for sparse representation of seismic data, Geophysics, 2015, 80 (6), WD89-WD100.
 
-F. Bossmann, J. Ma*, Asymmetric chirplet transform ¡ª Part 2: Phase, frequency, and chirp rate, Geophysiscs, 2016, 81(6):V425-V439.
+F. Bossmann, J. Ma, Asymmetric chirplet transform ¡ª Part 2: Phase, frequency, and chirp rate, Geophysiscs, 2016, 81(6):V425-V439.
 
 * Decurtain:
 
@@ -18,7 +18,7 @@ F. Bossmann, J. Ma*, Asymmetric chirplet transform ¡ª Part 2: Phase, frequency
 
 参考文献：
 
-Jan Henrik Fitschen, Jianwei Ma, Sebastian Schuff, Removal of curtaining effects by a variational model with directional forward differences, Computer Vision and Image Understanding, Volume 155, February 2017, Pages 24-32, ISSN 1077-3142
+Fitschen J H, Ma J, Schuff S. Removal of curtaining effects by a variational model with directional forward differences[J]. Computer Vision & Image Understanding, 2017, 155(13):24-32.
 
 * EMPCR:
 
@@ -26,7 +26,7 @@ Jan Henrik Fitschen, Jianwei Ma, Sebastian Schuff, Removal of curtaining effects
 
 参考文献：
 
-A fast rank reduction algorithm for three-dimensional seismic data interpolation. Journal of applied geophysics, 2016, 132: 137-145.
+Jia Y, Yu S, Liu L, et al. A fast rank-reduction algorithm for three-dimensional seismic data interpolation[J]. Journal of Applied Geophysics, 2016, 132:137-145.
 
 * RegistrationMultiComponent:
 
@@ -42,7 +42,7 @@ Wang H, Cheng Y, Ma J. Curvelet-based registration of multi-component seismic wa
 
 参考文献：
 
-S. Beckouche, J. Ma*, Simultaneously dictionary learning and denoising for seismic data, Geophysics, 2014, 79 (3), A27-A31.
+Beckouche S, Ma J. Simultaneous dictionary learning and denoising for seismic data[J]. Geophysics, 2014, 79(3):A27-A31.
 
 * DDTF3D:
 
@@ -66,7 +66,7 @@ Yu S, Ma J, Osher S. Monte Carlo data-driven tight frame for seismic data recove
 
 参考文献: 
 
-Yu S, Ma J. Complex Variational Mode Decomposition for Slop-preserving Denoising, summited to IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING
+Yu S, Ma J. Complex Variational Mode Decomposition for Slop-preserving Denoising, summited to IEEE Transactions on Geoscience and Remote Sensing
 
 * LDMM
 
@@ -74,7 +74,7 @@ Yu S, Ma J. Complex Variational Mode Decomposition for Slop-preserving Denoising
 
 参考文献:
 
-Yu S, et. al. Noise attenuation in a low dimensional manifold, accepted by geophysics.
+Yu S, et. al. Noise attenuation in a low dimensional manifold, Geophysics, 2017.
 
 * 测试数据下载链接
 
