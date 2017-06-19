@@ -7,9 +7,9 @@ We have used the asymmetric Gaussian chirplet model (AGCM) and established a dic
 
 Reference:
 
-F. Bossmann, J. Ma*, Asymmetric chirplet transform for sparse representation of seismic data, Geophysics, 2015, 80 (6), WD89-WD100.
+F. Bossmann, J. Ma, Asymmetric chirplet transform for sparse representation of seismic data, Geophysics, 2015, 80 (6), WD89-WD100.
 
-F. Bossmann, J. Ma*, Asymmetric chirplet transform ¡ª Part 2: Phase, frequency, and chirp rate, Geophysiscs, 2016, 81(6):V425-V439.
+F. Bossmann, J. Ma, Asymmetric chirplet transform ¡ª Part 2: Phase, frequency, and chirp rate, Geophysiscs, 2016, 81(6):V425-V439.
 
 * Decurtain:
 
@@ -17,7 +17,7 @@ An infimal convolution model is applied to split the corrupted 3D image into the
 
 Reference: 
 
-Jan Henrik Fitschen, Jianwei Ma, Sebastian Schuff, Removal of curtaining effects by a variational model with directional forward differences, Computer Vision and Image Understanding, Volume 155, February 2017, Pages 24-32, ISSN 1077-3142
+Fitschen J H, Ma J, Schuff S. Removal of curtaining effects by a variational model with directional forward differences[J]. Computer Vision & Image Understanding, 2017, 155(13):24-32.
 
 * EMPCR:
 
@@ -25,7 +25,7 @@ We propose a simple yet efficient interpolation algorithm, which is based on the
 
 Reference:
 
-A fast rank reduction algorithm for three-dimensional seismic data interpolation. Journal of applied geophysics, 2016, 132: 137-145.
+Jia Y, Yu S, Liu L, et al. A fast rank-reduction algorithm for three-dimensional seismic data interpolation[J]. Journal of Applied Geophysics, 2016, 132:137-145.
 
 * RegistrationMultiComponent:
 
@@ -41,7 +41,7 @@ We propose a simultaneous dictionary learning and denoising method for seismic d
 
 Reference:
 
-S. Beckouche, J. Ma*, Simultaneously dictionary learning and denoising for seismic data, Geophysics, 2014, 79 (3), A27-A31.
+Beckouche S, Ma J. Simultaneous dictionary learning and denoising for seismic data[J]. Geophysics, 2014, 79(3):A27-A31.
 
 * DDTF3D:
 
@@ -73,7 +73,7 @@ We have applied low dimensional manifold method for seismic strong noise attenua
 
 Reference:
 
-Yu S, et. al. Noise attenuation in a low dimensional manifold, accepted by geophysics.
+Yu S, et. al. Noise attenuation in a low dimensional manifold, Geophysics, 2017
 
 * test data download link
 
