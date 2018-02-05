@@ -1,16 +1,16 @@
 function[D,X]=perform_dictionary_learning(Mn,options)
 % Learn dictionary from an image or set of training sample
-% options.w : patch size, defaut is 9
+% options.w : patch size, default is 9
 % options.p : number of atoms in the dictionary, default is 2 * 9^2 = 162
 % options.nout : number of global iteration, default is 100
-% optiojs.dico_sigm : assumed noise level, used for omp_err and iterative thresholding, default is estimated with MAD
+% options.dico_sigm : assumed noise level, used for omp_err and iterative thresholding, default is estimated with MAD
 % options.T : number of active atoms allowed for omp reconstruction, default is 3
 % options.C : gain for denoising when using omp_err, default is 1.15
 % options.centerize : centerize training sample before learning, default is 0
 % options.keep : keep vector used to initialize the dictionary in the training set, default is 0
 % options.random_seed : randomly initialize the dictionary with selecting random training sample, default is 1
 % options.image_update : fix parameter mu so that at training samples are denoised at each iteration using : Vnew = (Vold + mu * D*x)/(1 + mu) where x is the sparse coding of Vold in D
-% options.training_set : training set manually input, skyping patch extraction
+% options.training_set : training set manually input, skipping patch extraction
 
 verbose = getoptions(options,'verbose',1); % w is the patch size, W = w*w
 if isfield(options,'W') && not(isfield(options,'w'))
