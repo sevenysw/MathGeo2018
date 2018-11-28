@@ -1,6 +1,42 @@
 # MathGeo
 A toolbox for seismic data processing from Center of Geopyhsics, Harbin Institute of Technology, China
 
+** 2018 updates
+
+* GMD
+
+Geometric mode decomposition (GMD) is designed to decompose seismic signal with linear or hpyerbolic events, with applications to denoising and interpolation.
+
+Reference:
+
+S. Yu, J. Ma, S. Osher, Geometric mode decomposition, Inverse Problem and Imaging, 2018, 12 (4), 831-852.
+
+* GVRO
+
+
+
+Reference:
+
+K. Cai, J. Ma, GVRO: gradient vector rank-one regularization with applications on seismic data processing, Geophysical Prospecting, 2018
+
+* SR1
+
+We presented a generalization of the low-rank approximation, which allows to individually shift the column of rank-1 matrices (SR1). This model was designed to represent objects that move through the data. This holds in applications such as seismic or ultrasonic image processing as well as video processing. 
+
+Reference:
+
+F. Bossmann, J. Ma, Enhanced image approximation using shifted rank-1 reconstruction, http://arxiv.org/abs/1810.01681
+
+* TSDL
+
+We proposed a  tree structure dictionary learning (TSDL) method.  Our approach is based on two components: a sparse data representation in a learned dictionary and a similarity measure for image patches that is evaluated using the Laplacian matrix of a graph.
+
+Reference:
+
+L. Liu, J. Ma, G. Plonka, Sparse graph-regularized dictionary learning for random seismic noise, Geophysics, 2018, 83 (3), V213-V231.
+
+** 2017
+
 * AGCM:
 
 We have used the asymmetric Gaussian chirplet model (AGCM) and established a dictionary-free variant of the orthogonal matching pursuit, a greedy algorithm for sparse approximation of seismic traces.

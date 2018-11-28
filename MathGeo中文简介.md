@@ -2,6 +2,43 @@
 
 地震数据处理工具箱，地球物理中心，哈尔滨工业大学
 
+
+** 2018更新
+
+* GMD
+
+几何模态分解用于分解含有线性或双曲同相轴的地震数据，并可以用于去噪和插值。
+
+参考文献：
+
+S. Yu, J. Ma, S. Osher, Geometric mode decomposition, Inverse Problem and Imaging, 2018, 12 (4), 831-852.
+
+* GVRO
+
+
+
+参考文献：
+
+K. Cai, J. Ma, GVRO: gradient vector rank-one regularization with applications on seismic data processing, Geophysical Prospecting, 2018
+
+* SR1
+
+平移秩1方法可以用于表示数据中移动的物体，可以应用于地震数据或超声波图像处理以及视频处理。
+
+参考文献：
+
+F. Bossmann, J. Ma, Enhanced image approximation using shifted rank-1 reconstruction, http://arxiv.org/abs/1810.01681
+
+* TSDL
+
+树字典学习方法基于两个方面：基于字典学习的稀疏表示以及基于图的图像块的相似性。
+
+参考文献：
+
+L. Liu, J. Ma, G. Plonka, Sparse graph-regularized dictionary learning for random seismic noise, Geophysics, 2018, 83 (3), V213-V231.
+
+** 2017
+
 * AGCM:
 
 程序使用非对称高斯线性调频小波模型建立一个不需要字典的正交匹配追踪算法，使用贪婪算法来近似地震数据道
