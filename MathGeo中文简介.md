@@ -3,7 +3,7 @@
 地震数据处理工具箱，地球物理中心，哈尔滨工业大学
 
 
-** 2018更新
+## 2018更新
 
 * GMD
 
@@ -37,7 +37,7 @@ F. Bossmann, J. Ma, Enhanced image approximation using shifted rank-1 reconstruc
 
 L. Liu, J. Ma, G. Plonka, Sparse graph-regularized dictionary learning for random seismic noise, Geophysics, 2018, 83 (3), V213-V231.
 
-** 2017
+## 2017
 
 * AGCM:
 

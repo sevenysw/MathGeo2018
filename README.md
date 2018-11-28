@@ -1,7 +1,7 @@
 # MathGeo
 A toolbox for seismic data processing from Center of Geopyhsics, Harbin Institute of Technology, China
 
-** 2018 updates
+## 2018 updates
 
 * GMD
 
@@ -35,7 +35,7 @@ Reference:
 
 L. Liu, J. Ma, G. Plonka, Sparse graph-regularized dictionary learning for random seismic noise, Geophysics, 2018, 83 (3), V213-V231.
 
-** 2017
+## 2017
 
 * AGCM:
 
