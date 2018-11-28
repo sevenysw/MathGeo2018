@@ -1,0 +1,4 @@
+Acknowledgement.
+
+The codes for col2imstep.m and im2clostep.m are copied from  the implementation 
+of K-SVD method  "KSVD-Box v11" obtained from http://www.cs.technion.ac.il/~ronrubin/Software/ksvdsbox11.zip
