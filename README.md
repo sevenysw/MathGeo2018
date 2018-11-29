@@ -13,6 +13,7 @@ S. Yu, J. Ma, S. Osher, Geometric mode decomposition, Inverse Problem and Imagin
 
 * GVRO
 
+Gradient-vector matrices are formed by collecting gradient vectors in a local seismic patch as columns. For single-dip signals, the gradient vectors will group along same lines. So, gradient-vector matrices should be approximately rank-one matrices. For multi-dip signals, the local seismic data are decomposed into single-dip components, with each components’ gradient-vector matrices regularized to be rank-one matrices. The proposed gradient-vector rank-one regularization (GVRO) model is solved in the frame work of block coordinate descending algorithm, and can be used for random noise attenuation and coherent signals separation according to the dip differences.
 
 
 Reference:
